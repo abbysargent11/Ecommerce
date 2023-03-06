@@ -1,0 +1,193 @@
+/* Body Styling */
+body {
+    background-color: #DD8D77;
+    font-family: Copperplate, Papyrus, fantasy;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav Bar Block */
+header {
+    background-color: #333333;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+ul {  
+    padding: 0;  
+    background: #333333;   
+    font-variant: small-caps;
+    font-size: 12px;  
+    text-transform: uppercase;
+}
+li {  
+    display: inline-block;
+    left: 5px;
+}
+
+/* Link Styling */
+.link {  
+    display: block;  
+    margin-left: 10px;
+    padding: 15px; 
+    color: white;  
+    text-decoration: none;
+}
+.link:hover {
+    background-color: #989898; 
+    border-radius: 25px;   
+}
+
+/* Cart */
+.cart {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 12px;  
+    color: white; 
+    background-color: #333333; 
+    display: inline-block; 
+    position: absolute;
+    right: 110px;
+    top: 12px; 
+    padding: 15px;
+    border-radius: 25px;  
+    border: none;
+}
+.cart:hover {
+    background-color: #989898; 
+    border-radius: 25px; 
+}
+
+
+/* Sign Up */
+.up {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 12px;  
+    color: white; 
+    background-color: #333333; 
+    display: inline-block; 
+    position: absolute;
+    right: 15px;
+    top: 12px; 
+    padding: 15px;
+    border-radius: 25px;  
+    border: none;
+}
+/* Sign Up */
+.up:hover {
+    background-color: #989898; 
+    border-radius: 25px; 
+}
+
+/* Sign In */
+.in {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 12px;  
+    color: white; 
+    background-color: #333333; 
+    display: inline-block; 
+    position: absolute;
+    right: 100px;
+    top: 12px; 
+    padding: 15px;
+    border-radius: 25px;  
+    border: none;
+}
+/* Sign In */
+.in:hover {
+    background-color: #989898; 
+    border-radius: 25px; 
+}
+
+/* Main Photo */
+.main {
+    width: 100%;
+    
+}
+
+
+/* Quiz Element */
+.quiz {
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 25px;
+    margin-top: 50px;
+    height: 400px;
+    padding: 40px;
+}
+.quiz h1 {
+    color: #DD8D77;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 40px;
+}
+.quiz a {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #DD8D77;
+    border-radius: 25px;
+    padding: 25px;
+}
+.quiz a:hover {
+    background-color: #333333; 
+    border-radius: 25px; 
+}
+
+
+/* "Artist's Favorites" photo styling */
+.favs {
+    width: 22%;
+    display: inline;
+    border: 7px solid white;
+    border-radius: 8px; 
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+.favs:hover { 
+    transform: scale(1.05); 
+    
+    }
+.thumbnail { 
+    top: -50px; 
+    left: -35px; 
+    display: inline-block; 
+    z-index: 999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    } 
+#af h2 {
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: white;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #333333;
+    padding: 3px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    clear: both;
+}

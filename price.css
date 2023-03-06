@@ -1,0 +1,216 @@
+/* Body Styling */
+body {
+    font-family: Copperplate, Papyrus, fantasy;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Nav Bar Block */
+header {
+    background-color: #333333;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+ul {  
+    padding: 0;  
+    background: #333333;   
+    font-variant: small-caps;
+    font-size: 12px;  
+    text-transform: uppercase;
+}
+li {  
+    display: inline-block;
+    left: 5px;
+}
+
+
+/* Link Styling */
+.link {  
+    display: block;  /* Keep */
+    margin-left: 10px;
+    padding: 15px; 
+    color: white;  
+    text-decoration: none; /* Removes Underline */
+}
+/* Makes links white when hovered */
+.link:hover {
+    background-color: #989898; 
+    border-radius: 25px;   
+}
+
+
+/* Sign Up */
+.up {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 12px;  
+    color: white; 
+    background-color: #333333; 
+    display: inline-block; 
+    position: absolute;
+    right: 15px;
+    top: 12px; 
+    padding: 15px;
+    border-radius: 25px;  
+    border: none;
+}
+.up:hover {
+    background-color: #989898; 
+    border-radius: 25px; 
+}
+
+/* Sign In */
+.in {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 12px;  
+    color: white; 
+    background-color: #333333; 
+    display: inline-block; 
+    position: absolute;
+    right: 100px;
+    top: 12px; 
+    padding: 15px;
+    border-radius: 25px;  
+    border: none;
+}
+.in:hover {
+    background-color: #989898; 
+    border-radius: 25px; 
+}
+
+
+/* Thumbnail effect on photos */
+.thumbnail { 
+    top: -50px; 
+    left: -35px; 
+    display: block; 
+    z-index: 999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    } 
+
+/* Photo Styling */
+img {
+    width: 31%;
+    display: inline;
+    border: 7px solid white;
+    border-radius: 8px; 
+    margin-left: 90px;
+    margin-top: 125px;
+    margin-bottom: 100px;
+    vertical-align: middle;
+    float: left;
+}
+
+/* Description Element Styling */
+#description {
+    float: right;
+    padding: 25px;
+    margin-top: 140px;
+    margin-right: 90px;
+    border: 7px solid white;
+    border-radius: 8px; 
+    background-color: white;
+    width: 550px;
+    height: 408px;
+}
+
+/* Item Name Styling */
+#description h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+/* Description Styling */
+#description p {
+    text-align: center;
+    padding: 17px;
+}
+
+/* Price Styling */
+.price {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Button Styling */
+.button {
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #DD8D77;
+    border: 7px solid #DD8D77;
+    border-radius: 8px; 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80px;
+}
+.button:hover {
+    background-color: #333333; 
+    border-radius: 25px;   
+    border: 7px solid #333333;
+    border-radius: 8px;
+}
+
+/* Form element */
+#form {
+    display: none;
+    margin-top: 50px;
+}
+
+/* Input box styling */
+.boxes {
+    margin: 20px 25px;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    border-color:  #69443C;
+}
+
+/* Submit button */
+.button2 {
+    display: block;
+    color: #DD8D77;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    border-radius: 8px; 
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333333;
+    padding: 3px;
+    color: white;
+    top: 400px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    clear: both;
+}
